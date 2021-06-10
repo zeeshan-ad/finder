@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <form>
+        <h2>Choose Sensor</h2>
+        <input type='text' placeholder='Sensor Id*' required/>
+        <input type='text' placeholder='Device Id*' required/>
+        <input type="submit" value="SUBMIT"/>
+        </form>
     </div>
   );
 }
