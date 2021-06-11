@@ -1,8 +1,8 @@
 body{
-    background: rgb(29, 26, 26);
+    background:rgb(29, 26, 26);
     color: #fff;
 }
-.App{
+.Home{
     padding-top: 5%;
 }
 form{
@@ -34,6 +34,7 @@ input[type=text]:focus{
     outline: none;
 }
 input[type=submit]{
+    cursor: pointer;
     background: rgb(1, 179, 1);
     border: none;
     width: 260px;
