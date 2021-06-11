@@ -41,3 +41,22 @@ input[type=submit]{
     height: 30px;
     margin: 0 20px 20px 20px;
 }
+
+.pin-icon{
+    color: red;
+    font-size: 30px;
+}
+
+.pin-box{
+    min-width:200px;
+    height:auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #bdbcbc;
+    color: #000;
+    font-size: 1em;
+}
+
+.close{
+    cursor: pointer;
+}
